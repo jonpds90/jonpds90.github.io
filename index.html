@@ -18,7 +18,7 @@ body {
    }
 div.otc{
 	width:320px;
-	height: 500px;
+	height: 650px;
 	margin-left:-15px;
 	background-image:url('altfg.jpg');
 	}
@@ -28,12 +28,21 @@ div.holder{
 	margin:300px auto 0 auto;
 	background-image:url('bg.jpg');
 	}
+.bigone{
+	width:100%;
+	height:auto;
+	}
+.smallone{
+	width:90%;
+	height:90%;
+	}
 
 @media screen and (min-width:768px){
 	div.holder{width:710px;}
-	div.otc{width:710px;
-	margin-left:-15px;}
-    }
+	div.otc{width:710px;margin-left:-15px;}
+	.bigone{width:375px; height:110px;}
+	.smallone{width:250px; height:110px;}
+	}
 @media screen and (min-width:900px){
 	div.holder{width:880px;}
 	div.otc{width:880px;
@@ -131,10 +140,17 @@ h8{
 	font-size: 15px;
 	padding: 0px 0px 0px 0px;
    }
+
 h9{
 	font-family: 'Poiret One', cursive;
 	color:black;
 	font-size: 25px;
+	padding: 0px 0px 0px 0px;
+   }
+h8 a{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color:black;
+	font-size: 15px;
 	padding: 0px 0px 0px 0px;
    }
 
@@ -177,7 +193,7 @@ h9{
 <div class= "col-md-1">
 </div>
 <div class= "col-md-3">
-<img src="firsthead.jpg" alt="about" style="width:90%; height:90%;">
+<img src="firsthead.jpg" class="smallone" alt="about">
 </div>
 <div class= "col-md-3">
 </div>
@@ -196,13 +212,13 @@ Justified price<br><br>
 
 I'm entirely kidding.<br><br>
 
-J.J. is a person. A person named Jonathan Jude Peres da Silva, who happens to be a is a web designer and developer. I'd say that's all you need to know and you'd probably be good, but the fact that you're still reading means you want more information. I, the person who is certainly not the amazing Jonathan Jude Peres da Silva, am only too happy to provide.<br><br>
+J.J. is a person. A person named Jonathan Jude Peres da Silva, who happens to be a is a web designer and developer. I'd say that's all you need to know and you'd probably be good, but the fact that you're still reading means you want more information. I am only too happy to provide.<br><br>
 
-J.J. is a graduate from Wilfred Laurier University for English and has learned professional web designing from Conestoga College. He loves to design website, and frankly he's good at it. But don't take the word of one extremely enthusiastic man who is definitely not J.J. on it. Take a look at his portfolio below, or even check out the testemonials.<br><br>
+J.J. is a graduate from Wilfred Laurier University for English and has learned professional web designing from Conestoga College. He loves to design website, and frankly he's good at it. Feel free to take a look at his portfolio below.<br><br>
 
-Welcome, to the wonderful world of web design.<br>
+Welcome, to the wonderful world of web design.<br><br><br>
 
-<a href="#top">Go back to the top</a></h8>
+<a href="#top" style="text-decoration: none">Go back to the top</a></h8>
 </div>
 </div>
 <p><br></p>
@@ -211,10 +227,10 @@ Welcome, to the wonderful world of web design.<br>
 <div class="container" id="faq">
 <div class="otc">
 <div class="container">
-<div class="col-md-7">
+<div class="col-md-6">
 </div>
 <div class="col-md-5">
-<img src="faqhead.jpg" alt="FAQ" style="width:90%; height:90%;">
+<img src="faqhead.jpg" class="bigone" alt="FAQ" >
 </div>
 </div>
 <div class="container">
@@ -222,7 +238,10 @@ Welcome, to the wonderful world of web design.<br>
 </div>
 <div class= "col-md-7">
 <h9>Why use J.J. instead of... well... literally anyone else?<br></h9>
-<h8>Unlike most companies and people you find, I don't use wordpress to create your website. Rather than add on a monthly fee for a generic template, I code everything you want from scratch, not only providing a more unique website, but a more customizable one too.<br><a href="#top">Go back to the top</a></h8>
+<h8>Unlike most companies and people you find, I don't use wordpress to create your website. Rather than add on a monthly fee for a generic template, I code everything you want from scratch, not only providing a more unique website, but a more customizable one too.<br><br></h8>
+<h9> But, but, but, I like Wordpress!</h9>
+<h8><br>Of course, if asked I can always use Wordpress. I simply don't use it unless asked because I like to give youthe most personal website you can have!
+<br><br><br><a href="#top"style="text-decoration: none">Go back to the top</a></h8>
 </div>
 </div>
 </div>
@@ -231,15 +250,18 @@ Welcome, to the wonderful world of web design.<br>
 <!--This is the portfolio section-->
 <div class="container" id="portfolio">
 <div class="container">
+<div class="col-md-1">
+</div>
 <div class="col-md-3">
-<img src="portfoliohead.jpg" alt="portfolio" style="width:90%; height:90%;">
+<img src="portfoliohead.jpg" alt="portfolio" class="smallone">
 </div>
 </div>
 <div class="container">
 <div class="col-md-2">
 </div>
 <div class="col-md-7">
-<h8> I've made a few sites for you to check out. I've made the site you're looking at right now, and the this one you can look at by clicking on the link <a href="http://jonpds90.github.io/santasfavourite/">here</a> I'll fill the rest of this section later broski<br><a href="#top">Go back to the top</a></h8>
+<h8> I've made a few sites for you to check out. I've made the site you're looking at right now, and the this one you can look at by clicking on the link <a href="http://jonpds90.github.io/santasfavourite/">here</a> I'll fill the rest of this section later broski<br><br><br>
+<a href="#top" style="text-decoration:none">Go back to the top</a></h8>
 </div>
 </div>
 </div>
@@ -249,17 +271,18 @@ Welcome, to the wonderful world of web design.<br>
 <div class="container" id="packages">
 <div class="otc">
 <div class="container">
-<div class="col-md-7">
+<div class="col-md-6">
 </div>
 <div class="col-md-5">
-<img src="packagehead.jpg" alt="packages" style="width:90%; height:90%;">
+<img src="packagehead.jpg" class="bigone" alt="packages">
 </div>
 </div>
 <div class="container">
 <div class="col-md-2">
 </div>
 <div class="col-md-7">
-<h8> This section is a bit of a misnomer. There is no steady price because everything takes a different amount of time and materials to create. For a price estimate, please contact me directly.<br><a href="#top">Go back to the top</a></h8>
+<h8> This section is a bit of a misnomer. There is no steady price because everything takes a different amount of time and materials to create. For a price estimate, please contact me directly.<br><br><br>
+<a href="#top" style="text-decoration: none">Go back to the top</a></h8>
 </div>
 </div>
 </div>
@@ -268,15 +291,18 @@ Welcome, to the wonderful world of web design.<br>
 <!--This is the contact section-->
 <div class="container" id="contact">
 <div class="container">
+<div class="col-md-1">
+</div>
 <div class="col-md-3">
-<img src="contacthead.jpg" alt="portfolio" style="width:90%; height:90%;">
+<img src="contacthead.jpg" alt="portfolio" class="smallone">
 </div>
 </div>
 <div class="container">
 <div class="col-md-2">
 </div>
 <div class="col-md-7">
-<h8>YOU MAY CONTACT ME WHEN I GIVE YOU PERMISSION MWAHAHAHAHHAHAHAHAHAH<br><a href="#top">Go back to the top</a></h8>
+<h8>YOU MAY CONTACT ME WHEN I GIVE YOU PERMISSION MWAHAHAHAHHAHAHAHAHAH<br><br><br>
+<a href="#top" style="text-decoration: none">Go back to the top</a></h8>
 </div>
 </div>
 </div>
