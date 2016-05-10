@@ -113,7 +113,6 @@
     });
 
     $('.owl-carousel2').owlCarousel({
-      
       items : 1,
       itemsDesktop : [1199,1],
       itemsDesktopSmall : [979,1],
